@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Staatliches&display=swap');
+
 body {
     background-color: hsl(217, 54%, 11%);
 }
@@ -14,7 +16,7 @@ body {
 .preview-card-photo {
     background-color: hsl(216, 50%, 16%);
     width: 350px;
-    height: 480px;
+    height: 580px;
     border-radius: 12px;
 }
 
@@ -28,19 +30,44 @@ body {
     width: 90%;
     position: relative;
     top: 10px;
+}
 
+.preview-card-avatar{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 .preview-card-text {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 h2 {
+    font-family: 'Outfit', sans-serif;
     color: hsl(178, 100%, 50%);
 }
 
 .preview-card-description {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
     color: hsl(215, 51%, 70%);
     font-size: 18px;
 
 }
+
+.size-amount-text {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 11px;
+}
+
+.time-frame-text {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+}
+
