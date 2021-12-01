@@ -49,21 +49,22 @@ h2 {
     font-weight: 300;
     color: hsl(215, 51%, 70%);
     font-size: 18px;
-
 }
 
 .size-amount-text {
     font-family: 'Outfit', sans-serif;
     color: hsl(178, 100%, 50%);
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
     display: inline;
     float: left;
+    position: relative;
+    left: 5px;
 }
 
 .horizontal-line {
     height: 2px;
-    width: 290px;
+    width: 300px;
     border-width:0;
     color:gray;
     background-color:hsl(215, 32%, 27%);
@@ -74,10 +75,11 @@ h2 {
 .time-frame-text {
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
     display: inline;
     float: left;
+    
 }
 
 .preview-card-avatar{
@@ -88,15 +90,29 @@ h2 {
     float: left;
 }
 
-.preview-card-svg1, .preview-card-svg2{
+.preview-card-svg1 {
     float: left;
+    position: relative;
+    top: 16px;
+}
+
+.preview-card-svg2 {
+    float: left;
+    position: relative;
+    top: 16px;
+    position: relative;
+    left: -5px;
 }
 
 .preview-card-3days-text{
+    position: relative;
+    left: -10px;
     float: right;
 }
 
 .preview-card-size-text {
+    position: relative;
+    left: 5px;
     float: left;
 }
 
@@ -104,15 +120,18 @@ h2 {
     display: inline;
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 400;
     float: left;
+    position: relative;
+    top: -10px;
+    left: 14px;
 }
 
 .preview-card-creator-blue-text{
     font-family: 'Outfit', sans-serif;
     color: hsl(178, 100%, 50%);
-    font-size: 11px;
+    font-size: 15px;
 }
 .preview-card-bottom-text {
     position: absolute;
