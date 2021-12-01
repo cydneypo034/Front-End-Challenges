@@ -32,13 +32,6 @@ body {
     top: 10px;
 }
 
-.preview-card-avatar{
-    height: 30px;
-    width: 30px;
-    border: 1px solid white;
-    border-radius: 20px;
-}
-
 .preview-card-text {
     display: block;
     margin-left: auto;
@@ -65,7 +58,15 @@ h2 {
     font-size: 11px;
     font-weight: 600;
     display: inline;
+    float: left;
     
+}
+
+.horizontal-line {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:hsl(215, 32%, 27%);
 }
 
 .time-frame-text {
@@ -74,4 +75,42 @@ h2 {
     font-size: 11px;
     font-weight: 600;
     display: inline;
+    float: left;
+}
+
+.preview-card-avatar{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: left;
+}
+
+.preview-card-svg1, .preview-card-svg2{
+    float: left;
+}
+
+.preview-card-3days-text{
+    float: right;
+}
+
+.preview-card-size-text {
+    float: left;
+}
+
+.preview-card-creator-text {
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.preview-card-creator-blue-text{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 11px;
+}
+.preview-card-bottom-text {
+    
 }
